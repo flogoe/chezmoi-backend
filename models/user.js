@@ -13,8 +13,9 @@ var UserSchema = new mongoose.Schema({
     },
     email: String,
     salt: String,
+    hash: String,
     description: String,
-    Rating: Number,
+    rating: Number,
     location: {
         city: String,
         street: String,
