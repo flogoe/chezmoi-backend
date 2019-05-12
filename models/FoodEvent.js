@@ -11,7 +11,7 @@ var FoodEventSchema = new mongoose.Schema({
     capacity: Number,
     title: String,
     description: String,
-    Rating: Number,
+    rating: Number,
     location: {
         city: String,
         street: String,
